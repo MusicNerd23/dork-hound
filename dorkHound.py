@@ -1,4 +1,4 @@
-from googlesearch import search
+from googlesearch import search 
 import time
 
 # Categorized Google Dorks
