@@ -12,7 +12,7 @@
 ## 🚀 Installation
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/DorkHound.git
+git clone https://github.com/MusicNerd23/dork-hound
 cd DorkHound
 ```
 ### **2. Install Dependencies**
