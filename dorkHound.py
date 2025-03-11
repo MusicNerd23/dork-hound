@@ -27,13 +27,13 @@ def perform_search(dork, query):
     print(f"\n[+] Searching: {full_query}\n")
     
     try:
-        results = [url for url in search(full_query, num=10, stop=10, pause=2)]
+        results = [url for url in search(full_query, num_results=10, sleep_interval=2)]
         for idx, url in enumerate(results, start=1):
             print(f"{idx}. {url}")
         return results
     except Exception as e:
-        print(f"[-] Error: {e}")
-        return []
+        print(f"[-] Search failed: {str(e)}")
+        results = []
 
 def save_results(results):
     """ Save results to a file """

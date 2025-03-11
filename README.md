@@ -1,6 +1,6 @@
-# 🐕‍🦺 DorkHound - Google Dorking OSINT Tool by MusicNerd23
+# 🐕‍🦺 dorkHound - Google Dorking OSINT Tool by MusicNerd23
 
-**DorkHound** is a powerful, menu-driven OSINT (Open Source Intelligence) tool that automates **Google Dorking** to uncover publicly available data. Designed for **ethical hackers, cybersecurity professionals, and OSINT researchers**, DorkHound streamlines intelligence gathering by categorizing and automating Google search queries.
+**dorkHound** is a powerful, menu-driven OSINT (Open Source Intelligence) tool that automates **Google Dorking** to uncover publicly available data. Designed for **ethical hackers, cybersecurity professionals, and OSINT researchers**, dorkHound streamlines intelligence gathering by categorizing and automating Google search queries.
 
 ## 🔥 Features
 - **Menu-Based Search** – Choose from categorized Google dorks (People Search, Files, Security, etc.)
@@ -13,7 +13,7 @@
 ### **1. Clone the Repository**
 ```bash
 git clone https://github.com/MusicNerd23/dork-hound
-cd DorkHound
+cd dork-hound
 ```
 ### **2. Install Dependencies**
 ```bash
@@ -23,7 +23,7 @@ pip install googlesearch-python
 ## 🛠 Usage
 Run the tool using:
 ```bash
-python dorkhound.py
+python dorkHound.py
 ```
 You'll be presented with a **menu** to select **OSINT categories** like:
 1. **People Search** (Facebook, LinkedIn, etc.)
